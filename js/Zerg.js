@@ -1,7 +1,7 @@
 const Zerg = [
     {
         time: "00:01",
-        unitImg: "../img/Drone_sc2.png",
+        unitImg: "./img/Drone_sc2.png",
         archImg: "",
         techImg: "",
         unitName: "Drone",
@@ -10,7 +10,7 @@ const Zerg = [
 },
     {
         time: "00:18",
-        unitImg: "../img/Overlord_sc2.png",
+        unitImg: "./img/Overlord_sc2.png",
         archImg: "",
         techImg: "",
         unitName: "Overlord",
@@ -19,7 +19,7 @@ const Zerg = [
 },
     {
         time: "00:21",
-        unitImg: "../img/Overlord_sc2.png",
+        unitImg: "./img/Overlord_sc2.png",
         archImg: "../img/Extractor.png",
         techImg: "",
         unitName: "Overlord",
@@ -28,7 +28,7 @@ const Zerg = [
 },
     {
         time: "00:25",
-        unitImg: "../img/Overlord_sc2.png",
+        unitImg: "./img/Overlord_sc2.png",
         archImg: "../img/Evolution_Chamber.png",
         techImg: "",
         unitName: "Overlord",
@@ -37,7 +37,7 @@ const Zerg = [
 },
     {
         time: "00:50",
-        unitImg: "../img/Overlord_sc2.png",
+        unitImg: "./img/Overlord_sc2.png",
         archImg: "../img/Spawning_Pool.png",
         techImg: "",
         unitName: "Overlord",
@@ -46,7 +46,7 @@ const Zerg = [
 },
     {
         time: "01:00",
-        unitImg: "../img/Overlord_sc2.png",
+        unitImg: "./img/Overlord_sc2.png",
         archImg: "../img/Spawning_Pool.png",
         techImg: "../img/Pneumatized_carapace.gif",
         unitName: "Overlord",
@@ -55,7 +55,7 @@ const Zerg = [
 },
     {
         time: "01:07",
-        unitImg: "../img/Zergling_sc2.png",
+        unitImg: "./img/Zergling_sc2.png",
         archImg: "../img/Spawning_Pool.png",
         techImg: "../img/Pneumatized_carapace.gif",
         unitName: "Zergling",
@@ -64,7 +64,7 @@ const Zerg = [
 },
     {
         time: "01:11",
-        unitImg: "../img/Zergling_sc2.png",
+        unitImg: "./img/Zergling_sc2.png",
         archImg: "../img/Spore_Crawler.png",
         techImg: "../img/Pneumatized_carapace.gif",
         unitName: "Zergling",
@@ -72,7 +72,7 @@ const Zerg = [
         techName: "Pneumatized Carapace"
 }, {
         time: "01:26",
-        unitImg: "../img/Queen.jpg",
+        unitImg: "./img/Queen.jpg",
         archImg: "../img/Spine_Crawler.png",
         techImg: "../img/Pneumatized_carapace.gif",
         unitName: "Queen",
@@ -81,7 +81,7 @@ const Zerg = [
 },
     {
         time: "01:30",
-        unitImg: "../img/Queen.jpg",
+        unitImg: "./img/Queen.jpg",
         archImg: "../img/Roach_Warren.png",
         techImg: "../img/Burrow.gif",
         unitName: "Queen",
@@ -90,7 +90,7 @@ const Zerg = [
 },
     {
         time: "01:33",
-        unitImg: "../img/Queen.jpg",
+        unitImg: "./img/Queen.jpg",
         archImg: "../img/Baneling_Nest.png",
         techImg: "../img/Burrow.gif",
         unitName: "Queen",
@@ -98,7 +98,7 @@ const Zerg = [
         techName: "Burrow"
 }, {
         time: "01:48",
-        unitImg: "../img/Roach.png",
+        unitImg: "./img/Roach.png",
         archImg: "../img/Lair.png",
         techImg: "../img/Burrow.gif",
         unitName: "Roach",
@@ -107,7 +107,7 @@ const Zerg = [
 },
     {
         time: "01:55",
-        unitImg: "../img/Ravager.png",
+        unitImg: "./img/Ravager.png",
         archImg: "../img/Lair.png",
         techImg: "../img/Burrow.gif",
         unitName: "Ravager",
@@ -116,7 +116,7 @@ const Zerg = [
 },
     {
         time: "02:00",
-        unitImg: "../img/Baneling.png",
+        unitImg: "./img/Baneling.png",
         archImg: "../img/Lair.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Baneling\nOverseer",
@@ -125,7 +125,7 @@ const Zerg = [
 },
     {
         time: "02:16",
-        unitImg: "../img/Baneling.png",
+        unitImg: "./img/Baneling.png",
         archImg: "../img/Hydralisk_Den.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Baneling\nOverseer",
@@ -133,7 +133,7 @@ const Zerg = [
         techName: "Metabolic Boost"
 }, {
         time: "02:23",
-        unitImg: "../img/Baneling.png",
+        unitImg: "./img/Baneling.png",
         archImg: "../img/Infestation_Pit.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Baneling\nOverseer",
@@ -142,7 +142,7 @@ const Zerg = [
 },
     {
         time: "02:37",
-        unitImg: "../img/Baneling.png",
+        unitImg: "./img/Baneling.png",
         archImg: "../img/600px-Nydus_Worm.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Baneling\nOverseer",
@@ -151,7 +151,7 @@ const Zerg = [
 },
     {
         time: "02:40",
-        unitImg: "../img/Hydralisk_sc2.png",
+        unitImg: "./img/Hydralisk_sc2.png",
         archImg: "../img/600px-Nydus_Worm.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Hydralisk",
@@ -160,7 +160,7 @@ const Zerg = [
 },
     {
         time: "02:52",
-        unitImg: "../img/Swarm_Host.jpg",
+        unitImg: "./img/Swarm_Host.jpg",
         archImg: "../img/600px-Nydus_Worm.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Swarm Host",
@@ -168,7 +168,7 @@ const Zerg = [
         techName: "Metabolic Boost"
 }, {
         time: "02:59",
-        unitImg: "../img/Infestor.png",
+        unitImg: "./img/Infestor.png",
         archImg: "../img/Spire.png",
         techImg: "../img/Metabolic_boost.gif",
         unitName: "Infestor",
@@ -177,7 +177,7 @@ const Zerg = [
 },
     {
         time: "03:05",
-        unitImg: "../img/Infestor.png",
+        unitImg: "./img/Infestor.png",
         archImg: "../img/Spire.png",
         techImg: "../img/Melee_attacks_1.gif",
         unitName: "Infestor",
@@ -186,7 +186,7 @@ const Zerg = [
 },
     {
         time: "03:20",
-        unitImg: "../img/Infestor.png",
+        unitImg: "./img/Infestor.png",
         archImg: "../img/Spire.png",
         techImg: "../img/Tunneling_claws.gif",
         unitName: "Infestor",
@@ -195,7 +195,7 @@ const Zerg = [
 },
     {
         time: "03:23",
-        unitImg: "../img/Mutalisk_sc2.png",
+        unitImg: "./img/Mutalisk_sc2.png",
         archImg: "../img/Spire.png",
         techImg: "../img/Tunneling_claws.gif",
         unitName: "Mutalisk",
@@ -204,7 +204,7 @@ const Zerg = [
 },
     {
         time: "03:27",
-        unitImg: "../img/Corrupter.png",
+        unitImg: "./img/Corrupter.png",
         archImg: "../img/Spire.png",
         techImg: "../img/Muscular_Augments.png",
         unitName: "Corruptor",
@@ -213,7 +213,7 @@ const Zerg = [
 },
     {
         time: "03:34",
-        unitImg: "../img/Corrupter.png",
+        unitImg: "./img/Corrupter.png",
         archImg: "../img/Hive.png",
         techImg: "../img/Muscular_Augments.png",
         unitName: "Corruptor",
@@ -222,7 +222,7 @@ const Zerg = [
 },
     {
         time: "03:42",
-        unitImg: "../img/Corrupter.png",
+        unitImg: "./img/Corrupter.png",
         archImg: "../img/LurkerDen.jpg",
         techImg: "../img/Neural_parasite.png",
         unitName: "Corruptor",
@@ -231,7 +231,7 @@ const Zerg = [
 },
     {
         time: "03:50",
-        unitImg: "../img/600px-Lurker.jpg",
+        unitImg: "./img/600px-Lurker.jpg",
         archImg: "../img/LurkerDen.jpg",
         techImg: "../img/Neural_parasite.png",
         unitName: "Lurker",
@@ -240,7 +240,7 @@ const Zerg = [
 },
     {
         time: "03:57",
-        unitImg: "../img/600px-Lurker.jpg",
+        unitImg: "./img/600px-Lurker.jpg",
         archImg: "../img/LurkerDen.jpg",
         techImg: "../img/Ventral_sacs.gif",
         unitName: "Lurker",
@@ -249,7 +249,7 @@ const Zerg = [
 },
     {
         time: "04:03",
-        unitImg: "../img/Viper.jpg",
+        unitImg: "./img/Viper.jpg",
         archImg: "../img/LurkerDen.jpg",
         techImg: "../img/Ventral_sacs.gif",
         unitName: "Viper",
@@ -259,7 +259,7 @@ const Zerg = [
 
     {
         time: "04:20",
-        unitImg: "../img/Viper.jpg",
+        unitImg: "./img/Viper.jpg",
         archImg: "../img/Ultralisk_Cavern.png",
         techImg: "../img/Ventral_sacs.gif",
         unitName: "Viper",
@@ -268,7 +268,7 @@ const Zerg = [
 },
     {
         time: "04:36",
-        unitImg: "../img/Viper.jpg",
+        unitImg: "./img/Viper.jpg",
         archImg: "../img/Ultralisk_Cavern.png",
         techImg: "../img/62px-Adaptive_Talons.png",
         unitName: "Viper",
@@ -277,7 +277,7 @@ const Zerg = [
 },
     {
         time: "04:45",
-        unitImg: "../img/Viper.jpg",
+        unitImg: "./img/Viper.jpg",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/62px-Adaptive_Talons.png",
         unitName: "Viper",
@@ -286,7 +286,7 @@ const Zerg = [
 },
     {
         time: "04:59",
-        unitImg: "../img/600px-Ultralisk_sc2.png",
+        unitImg: "./img/600px-Ultralisk_sc2.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/62px-Adaptive_Talons.png",
         unitName: "Ultralisk",
@@ -295,7 +295,7 @@ const Zerg = [
 },
     {
         time: "05:03",
-        unitImg: "../img/600px-Ultralisk_sc2.png",
+        unitImg: "./img/600px-Ultralisk_sc2.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Anabolic_Synthesis.gif",
         unitName: "Ultralisk",
@@ -304,7 +304,7 @@ const Zerg = [
 },
     {
         time: "05:09",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Anabolic_Synthesis.gif",
         unitName: "Brood Lord",
@@ -313,7 +313,7 @@ const Zerg = [
 },
     {
         time: "05:39",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Flyer_attack_1.gif",
         unitName: "Brood Lord",
@@ -322,7 +322,7 @@ const Zerg = [
 },
     {
         time: "05:44",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Adrenal_glands.gif",
         unitName: "Brood Lord",
@@ -331,7 +331,7 @@ const Zerg = [
 },
     {
         time: "06:15",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Melee_attacks_2.gif",
         unitName: "Brood Lord",
@@ -340,7 +340,7 @@ const Zerg = [
 },
     {
         time: "08:48",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Flyer_attack_2.gif",
         unitName: "Brood Lord",
@@ -349,7 +349,7 @@ const Zerg = [
 },
     {
         time: "09:55",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Melee_attacks_3.gif",
         unitName: "Brood Lord",
@@ -358,7 +358,7 @@ const Zerg = [
 },
     {
         time: "12:28",
-        unitImg: "../img/Brood_Lord.png",
+        unitImg: "./img/Brood_Lord.png",
         archImg: "../img/Greater_Spire.png",
         techImg: "../img/Flyer_attack_3.gif",
         unitName: "Brood Lord",
