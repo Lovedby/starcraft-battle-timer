@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/esm/popper.min.js"></script>
+
+    <script type="text/javascript" src="js/Terran.js"></script>
+    <script type="text/javascript" src="js/Zerg.js"></script>
+    <script type="text/javascript" src="js/Protoss.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <title>StarCraftII | Battle Timer</title>
+</head>
+
+<body style="background-color:#4a5667">
+    <div class="bg-image">
+        <div class="bg-mask text-center">
+            <span class="text-warning font-weight-bold font-italic">StarCraftII Battle Timer!!patch is 4.7.1</span>
+
+            <h3 class="bg-primary text-white">対戦相手種族をタップで,<br>タイマースタート.</h3>
+            <div id="content" class="">
+                <img src="img/150px-TerranIcon.png" onClick="timerStart('Terran')" id="Terran-start"></img>
+                <img src="img/150px-ZergIcon.png" onClick="timerStart('Zerg')" id="Zerg-start"></img>
+                <img src="img/150px-ProtossIcon.png" onClick="timerStart('Protoss')" id="Protoss-start"></img>
+
+                <div id="timer" text-align="center" style="position: relative;padding-top: 30px">
+                    <h3 id="timervalue" class="text-white bg-danger">00:00</h3>
+                </div>
+                <div class="build-box">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th class="text-warning">UNIT</th>
+                                <th class="text-warning">ARCH</th>
+                                <th class="text-warning">TECH</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <img src="" id="now-complete-unit-img"></img><br>
+                                    <span id="now-complete-unit-name" class=" bg-warning  text-white">_</span>
+                                </td>
+                                <td>
+                                    <img src="" id="now-complete-arch-img"></img><br>
+                                    <span id="now-complete-arch-name" class=" bg-warning  text-white">_</span>
+                                </td>
+                                <td>
+                                    <img src="" id="now-complete-tech-img"></img><br>
+                                    <span id="now-complete-tech-name" class=" bg-warning  text-white">_</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <button onClick="location.reload();" class="btn btn-primary">Reset</button>
+
+                <div style="position: relative;padding-top: 50px" class="text-center text-primary font-weight-bold font-italic">
+                    StarCraftIIに関するすべての権利はBlizzardへ帰属します.
+                    ©Blizzard Entertainment, Inc. All rights reserved.
+                    Wings of Liberty, Heart of the Swarm, Legacy of the Void, StarCraft, Brood War, Heroes of the Storm,
+                    Hearthstone, Overwatch, Warcraft, Battle.net,
+                    and Blizzard Entertainment are trademarks or registered trademarks of Blizzard Entertainment, Inc.
+                    in the U.S. and/or other countries.<br>
+                    素材お借りUrl:<a href="https://liquipedia.net/starcraft2/">https://liquipedia.net/starcraft2/</a><br>
+                    ありがとうございます。GL,HF.
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

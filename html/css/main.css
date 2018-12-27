@@ -1,0 +1,26 @@
+img {
+    width: 100px;
+    max-width: 100px;
+    height: auto;
+}
+
+.bg-image {
+    background-image: url('../img/maxresdefault.jpg');
+    /*
+    width: 220px;
+    height: 220px;*/
+    background-size: cover;
+    background-repeat: space;
+    background-color: #4a5667;
+}
+
+.bg-mask {
+    height: 100%;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+#flash {
+    width: 128px;
+    height: 128px;
+    background-color: #f906ce;
+}
